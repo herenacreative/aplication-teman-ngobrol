@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appgeo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/herena/mobile/AppGeo/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/herena/mobile/AppGeo/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.SYSTEM\_ALERT\_WINDOW" />
+13-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.ACCESS\_FINE\_LOCATION" />
+14-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:7:5-64
+15-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:8:5-80
+16-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.46.0] /home/herena/.gradle/caches/transforms-2/files-2.1/1e97852c4f4da9b4b4011c8969553363/flipper-0.46.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.46.0] /home/herena/.gradle/caches/transforms-2/files-2.1/1e97852c4f4da9b4b4011c8969553363/flipper-0.46.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+18-->[:react-native-maps] /home/herena/mobile/AppGeo/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+18-->[:react-native-maps] /home/herena/mobile/AppGeo/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:10:5-34:19
+26        android:name="com.appgeo.MainApplication"
+26-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:11:7-38
+27        android:allowBackup="false"
+27-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:15:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /home/herena/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:13:7-41
+31        android:label="@string/app_name"
+31-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:12:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:14:7-52
+33        android:theme="@style/AppTheme"
+33-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:16:7-38
+34        android:usesCleartextTraffic="true" >
+34-->/home/herena/mobile/AppGeo/android/app/src/debug/AndroidManifest.xml:7:18-53
+35        <activity
+35-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:17:7-27:18
+36            android:name="com.appgeo.MainActivity"
+36-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:18:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:20:9-86
+38            android:label="@string/app_name"
+38-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:19:9-41
+39            android:launchMode="singleTask"
+39-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:21:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:22:9-51
+41            <intent-filter>
+41-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:23:9-26:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:24:13-65
+42-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:24:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:25:13-73
+44-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:25:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:28:7-84
+47-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:28:17-81
+48
+49        <meta-data
+49-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:30:7-32:66
+50            android:name="com.google.android.geo.API_KEY"
+50-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:31:9-54
+51            android:value="AIzaSyAYXrQTYuPb67ps96aTeflmJDsPMrvlJ14" />
+51-->/home/herena/mobile/AppGeo/android/app/src/main/AndroidManifest.xml:32:9-64
+52
+53        <provider
+53-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+54            android:name="com.imagepicker.FileProvider"
+54-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+55            android:authorities="com.appgeo.provider"
+55-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+56            android:exported="false"
+56-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+58            <meta-data
+58-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+60                android:resource="@xml/provider_paths" />
+60-->[:react-native-image-picker] /home/herena/mobile/AppGeo/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+61        </provider> <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/92d09ec7d7075bf83d338af383d5aca6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/92d09ec7d7075bf83d338af383d5aca6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.0.0] /home/herena/.gradle/caches/transforms-2/files-2.1/92d09ec7d7075bf83d338af383d5aca6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+74    </application>
+75
+76</manifest>
